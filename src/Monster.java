@@ -1,13 +1,11 @@
 public class Monster {
     private String name;
     protected int health;
-    protected int maxhealth;
     protected int attackpoints;
 
     public Monster(String name, int health, int attackpoints) {
         this.name = name;
         this.health = health;
-        this.maxhealth = maxhealth;
         this.attackpoints = attackpoints;
     }
 
@@ -19,9 +17,6 @@ public class Monster {
         return health;
     }
 
-    public int getmaxhealth() {
-        return maxhealth;
-    }
 
     public int getattackpoints() {
         return attackpoints;
